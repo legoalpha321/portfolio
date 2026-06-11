@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mogrt Automation — Timmy Beckmann</title>
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="case-study.css">
+</head>
+<body>
+
+<nav class="top">
+  <a class="logo" href="index.html"><img src="assets/logo.png" alt="Timmy Beckmann"></a>
+  <span class="links">
+    <a href="index.html">Home</a>
+    <a href="work.html" class="active">Work</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="about.html">About</a>
+  </span>
+</nav>
+
+<!-- 1 · HERO  (systems tile still leads with output video, never a diagram) -->
+<header class="hero wrap">
+  <div class="text">
+    <div class="kicker">Case Study 06 — Systems That Scale</div>
+    <h1>Mogrt Automation</h1>
+    <p class="lead" style="margin-top:24px">
+      A catalog of 63 motion templates that lets an LLM build on brand After Effects and Premiere sequences
+      from plain text, in under 15 seconds.
+    </p>
+  </div>
+  <div style="margin-top:40px">
+    <div class="video">
+      <span class="play"></span>
+      <!-- Live: <iframe src="https://player.vimeo.com/video/VIDEO_ID?title=0&byline=0&portrait=0&dnt=1" allow="fullscreen; picture-in-picture" allowfullscreen></iframe> -->
+    </div>
+    <div class="media-cap">Output, a sequence the system built from a one line brief.</div>
+  </div>
+</header>
+
+<!-- 2 · META STRIP -->
+<div class="wrap">
+  <div class="meta">
+    <div><div class="label">Role</div><div class="val">Brand Motion Graphics Designer</div></div>
+    <div><div class="label">Year</div><div class="val">2025–26</div></div>
+    <div><div class="label">Scope</div><div class="val">63 template system, used by 8 editors and 3 designers</div></div>
+    <div class="tools"><div class="label">Tools</div><div class="val">After Effects · Premiere · Essential Graphics · <span>Claude</span> · <span>Python</span></div></div>
+  </div>
+</div>
+
+<!-- 3 · THE BRIEF -->
+<section class="wrap">
+  <div class="text">
+    <div class="section-label">The Brief</div>
+    <h2>Make on brand motion something anyone on the team can make.</h2>
+    <p style="margin-top:22px">
+      When Claude Code first came out, it was bad at motion graphics. Raw JSX broke constantly, and Remotion
+      took 5 to 10 minutes to render something that looked off brand and was hard to tweak. For a brand with
+      strict standards and fast turnarounds, that's a nightmare. I wanted AI that could make motion that was
+      fast, stayed on brand, and that I could still go in and tweak by hand.
+    </p>
+  </div>
+</section>
+
+<!-- 4 · THE APPROACH -->
+<section class="wrap">
+  <div class="text"><div class="section-label">The Approach</div></div>
+
+  <div class="module">
+    <div class="m-text">
+      <h3>The system handles layout, the AI just picks and writes.</h3>
+      <p>
+        I built 63 templates in After Effects, all MOGRTs and Essential Graphics comps, and cataloged each
+        one by its text style, energy, mood, complexity, duration, and what it's good and bad for. Claude
+        reads that catalog, picks the right templates for a brief or script, and writes the copy. Then a
+        Python script handles the actual layout, timing, and Essential Graphics. The LLM never touches raw
+        animation, so it basically can't go off brand.
+      </p>
+    </div>
+    <div class="m-media"><div class="ph">The catalog, 63 templates indexed by energy + use</div></div>
+  </div>
+
+  <div class="module">
+    <div class="m-text">
+      <h3>Plain text in, a built sequence out, in 15 seconds.</h3>
+      <p>
+        You can hand it a brief, a script, or just a rough idea, and it gives back a real After Effects or
+        Premiere sequence in under 15 seconds, in 16:9, 9:16, or 1:1. And because everything is shape layers
+        and Essential Graphics, I can still open the comp and tweak anything I want. So it's fast, it stays on
+        brand, and I keep full creative control. Which is kind of the perfect solution.
+      </p>
+    </div>
+    <div class="m-media"><div class="ph">Brief → Claude picks → Python builds → comp</div></div>
+  </div>
+</section>
+
+<!-- 5 · IN PRODUCTION -->
+<section class="wrap">
+  <div class="text"><div class="section-label">In Production</div></div>
+  <div class="three-up">
+    <div class="cell"><div class="ph">16:9</div><span class="tag">Format</span></div>
+    <div class="cell"><div class="ph">9:16</div><span class="tag">Format</span></div>
+    <div class="cell"><div class="ph">1:1</div><span class="tag">Format</span></div>
+  </div>
+  <div class="text"><p style="margin-top:22px">
+    The same system outputs across every aspect ratio the channels need, in both After Effects and Premiere,
+    used in production by 3 motion designers and 8 editors.
+  </p></div>
+</section>
+
+<!-- 6 · HOW IT SCALES + STATS -->
+<section class="wrap">
+  <div class="text">
+    <div class="section-label">How It Scales</div>
+    <h2>The bottleneck went from me to no one.</h2>
+    <p style="margin-top:22px">
+      Before this, I was the person everyone came to for custom motion graphics. Now editors on the Developer
+      Channel, Modern Marketing Data Stack, Data Cloud Now, and Predictions series build their own sequences
+      and can't drift off brand. I've watched a dozen plus videos go out that all would have landed in my
+      queue before. It also changed pre production. We can feed it a draft script and get a proof of concept
+      animation back right away, so we can feel out whether the energy and pacing are landing before we
+      commit to building anything.
+    </p>
+  </div>
+  <div class="stats">
+    <div><div class="num">63</div><div class="desc">Templates, cataloged up from 4 basic originals</div></div>
+    <div><div class="num">&lt; 15 sec</div><div class="desc">Plain text to a built sequence</div></div>
+    <div><div class="num">8 + 3</div><div class="desc">Editors and designers producing on their own</div></div>
+    <div><div class="num">3 formats</div><div class="desc">16:9, 9:16, 1:1, from one source</div></div>
+  </div>
+</section>
+
+<!-- 7 · PREV / NEXT -->
+<div class="wrap">
+  <div class="pager">
+    <a href="05-nyse.html"><span class="dir">← Prev</span><span class="t">NYSE</span></a>
+    <a href="01-gaussian-splat.html" style="text-align:right"><span class="dir">Next →</span><span class="t">Gaussian Splat Opener</span></a>
+  </div>
+</div>
+
+<footer class="site">
+  <div class="inner">
+    <span class="f-name">Timmy Beckmann — Brand Motion Designer</span>
+    <span class="f-social">
+      <a href="https://www.linkedin.com/in/timmy-beckmann/" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.2 8.5h4.6V24H.2V8.5zM8.5 8.5h4.4v2.1h.06c.61-1.16 2.1-2.38 4.32-2.38 4.62 0 5.47 3.04 5.47 7V24h-4.6v-7.8c0-1.86-.03-4.25-2.6-4.25-2.6 0-3 2.03-3 4.12V24H8.5V8.5z"/></svg></a>
+      <a href="https://www.youtube.com/@TABVideoProductions" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3.02 3.02 0 0 0-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.51A3.02 3.02 0 0 0 .5 6.2C0 8.08 0 12 0 12s0 3.92.5 5.8a3.02 3.02 0 0 0 2.12 2.14c1.88.51 9.38.51 9.38.51s7.5 0 9.38-.51a3.02 3.02 0 0 0 2.12-2.14C24 15.92 24 12 24 12s0-3.92-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg></a>
+      <a href="https://www.instagram.com/timmybeckmann" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16zm0 7.43a4.41 4.41 0 1 0 0 8.82 4.41 4.41 0 0 0 0-8.82zm0 7.28a2.87 2.87 0 1 1 0-5.74 2.87 2.87 0 0 1 0 5.74zm5.62-7.46a1.03 1.03 0 1 1-2.06 0 1.03 1.03 0 0 1 2.06 0z"/></svg></a>
+    </span>
+    <a class="f-email" href="mailto:tabeckmann@gmail.com">tabeckmann@gmail.com</a>
+  </div>
+</footer>
+
+</body>
+</html>
