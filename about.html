@@ -10,25 +10,46 @@
 <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="case-study.css">
 <style>
-  .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+  .about-outer{padding:40px 0 64px}
+  .about-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    column-gap:56px;
+    margin-top:28px;
+  }
+  /* LEFT COLUMN */
+  .about-grid > h1          { grid-column:1; grid-row:1; margin-bottom:32px; }
+  .about-grid > .bio        { grid-column:1; grid-row:2; }
+  .about-grid > .contact    { grid-column:1; grid-row:3; margin-top:44px; }
+  .about-grid > .games      { grid-column:1; grid-row:4; margin-top:44px; }
+  /* RIGHT COLUMN */
+  .about-grid > .about-photo       { grid-column:2; grid-row:1 / 4; }
+  .about-grid > .about-games-media { grid-column:2; grid-row:4; margin-top:44px; }
+
   .bio p{font-size:16px;line-height:1.6;margin-bottom:18px}
   .bio p:last-child{margin-bottom:0}
-  .games{margin-top:44px;background:var(--band);border:1px solid var(--line);padding:36px}
+  .contact{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;border-top:1px solid var(--line);padding-top:28px}
+  .contact .label{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+  .contact a{color:var(--ink);text-decoration:none;font-weight:500;border-bottom:1px solid var(--accent);padding-bottom:1px}
+  .games{background:var(--band);border:1px solid var(--line);padding:36px}
   .games h3{font-weight:600;font-size:24px;margin-bottom:14px}
   .games p{margin-bottom:0;font-size:16px;line-height:1.6}
   .games a{color:var(--accent);text-decoration:none;font-weight:500}
-  .about-right{display:flex;flex-direction:column;gap:20px}
-  .about-photo{width:100%;aspect-ratio:3/4;background:#ECE9E0;border:1px solid var(--line);overflow:hidden}
+  /* photo stretches to fill whatever height rows 1-3 produce */
+  .about-photo{overflow:hidden;border:1px solid var(--line);background:#ECE9E0}
   .about-photo img{width:100%;height:100%;object-fit:cover;display:block}
-  .about-games-media{width:100%;aspect-ratio:16/9;background:#16150f;overflow:hidden}
+  .about-games-media{aspect-ratio:16/9;background:#16150f;overflow:hidden}
   .about-games-media img{width:100%;height:100%;object-fit:cover;display:block}
   .about-games-media video{width:100%;height:100%;object-fit:cover;display:block}
-  .contact{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:56px;border-top:1px solid var(--line);padding-top:28px}
-  .contact .label{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
-  .contact a{color:var(--ink);text-decoration:none;font-weight:500;border-bottom:1px solid var(--accent);padding-bottom:1px}
+
   @media(max-width:720px){
-    .about-grid{grid-template-columns:1fr;gap:0}
-    .about-right{margin-top:44px}
+    .about-grid{grid-template-columns:1fr}
+    .about-grid > h1,
+    .about-grid > .bio,
+    .about-grid > .contact,
+    .about-grid > .games          { grid-column:1 }
+    .about-grid > .about-photo    { grid-column:1; grid-row:auto; margin-top:44px; aspect-ratio:3/4 }
+    .about-grid > .about-games-media { grid-column:1; grid-row:auto }
     .contact{grid-template-columns:1fr;gap:18px}
   }
 </style>
@@ -45,53 +66,44 @@
   </span>
 </nav>
 
-<header class="hero wrap">
-  <div class="text">
-    <div class="kicker">About</div>
-    <h1>Timmy Beckmann</h1>
-  </div>
-</header>
+<div class="wrap about-outer">
+  <div class="kicker">About</div>
 
-<section class="wrap">
   <div class="about-grid">
 
-    <!-- LEFT: bio + games text -->
-    <div class="about-left">
-      <div class="bio">
-        <p>My calling for animation and design started when I was five years old, with LEGO stop motion: photos dropped into a Microsoft PowerPoint where I controlled the timing by hitting the spacebar. By 2008 those videos had passed five million views on YouTube, and the ad money bought me my first real camera.</p>
+    <h1>Timmy Beckmann</h1>
 
-        <p>Stop motion taught me that every single part of a film matters, and that you only build what the camera sees. If an object leaves frame, you don't animate it. Every sound effect gets placed by hand, since stop motion is silent. I'd bring each frame into Photoshop to paint the VFX and record my own voiceovers in Audacity. That was the foundation for everything after it.</p>
+    <div class="bio">
+      <p>My calling for animation and design started when I was five years old, with LEGO stop motion: photos dropped into a Microsoft PowerPoint where I controlled the timing by hitting the spacebar. By 2008 those videos had passed five million views on YouTube, and the ad money bought me my first real camera.</p>
 
-        <p>I kept making films through middle and high school, taking cues from people like Freddie Wong and the Corridor Crew. I spent two years as rally commissioner in my high school's ASB, which was the first time I had to put on a big live event for a room full of people. Then I went to NYU for Film and TV, where I made my own projects but found I got the most out of helping with everyone else's, learning from the people around me.</p>
+      <p>Stop motion taught me that every single part of a film matters, and that you only build what the camera sees. If an object leaves frame, you don't animate it. Every sound effect gets placed by hand, since stop motion is silent. I'd bring each frame into Photoshop to paint the VFX and record my own voiceovers in Audacity. That was the foundation for everything after it.</p>
 
-        <p>COVID hit right as I graduated, so I stayed in New York freelancing. I got connected with someone at Snowflake, and have been their Brand Motion Graphics Designer since 2021, one of two full time motion designers covering everything from 143 foot keynote openers to social.</p>
-      </div>
+      <p>I kept making films through middle and high school, taking cues from people like Freddie Wong and the Corridor Crew. I spent two years as rally commissioner in my high school's ASB, which was the first time I had to put on a big live event for a room full of people. Then I went to NYU for Film and TV, where I made my own projects but found I got the most out of helping with everyone else's, learning from the people around me.</p>
 
-      <div class="contact">
-        <div><div class="label">Resume</div><a href="assets/Timmy-Beckmann-Resume.pdf">Download PDF</a></div>
-        <div><div class="label">LinkedIn</div><a href="https://www.linkedin.com/in/timmy-beckmann/">timmy-beckmann</a></div>
-        <div><div class="label">Email</div><a href="mailto:tabeckmann@gmail.com">tabeckmann@gmail.com</a></div>
-      </div>
-
-      <div class="games">
-        <h3>I also ship games.</h3>
-        <p>As a creative outlet, I love building games in Godot. I enjoy collaborating and learning with friends who are skilled 3D modelers, voice actors, and writers. Game dev ticks a lot of boxes for me: there's always more to learn, systems and templates are essential, performance matters on weaker hardware, and like stop motion, I'm only designing for what the player sees and hears. <a href="https://timmy-beckmann.itch.io/15-minutes">Play my latest game, 15 Minutes, on itch.io</a></p>
-      </div>
+      <p>COVID hit right as I graduated, so I stayed in New York freelancing. I got connected with someone at Snowflake, and have been their Brand Motion Graphics Designer since 2021, one of two full time motion designers covering everything from 143 foot keynote openers to social.</p>
     </div>
 
-    <!-- RIGHT: photo + games gif/video -->
-    <div class="about-right">
-      <div class="about-photo">
-        <img src="assets/about-photo.jpg" alt="Timmy Beckmann">
-      </div>
-      <div class="about-games-media">
-        <img src="assets/games.gif" alt="15 Minutes gameplay">
-      </div>
+    <div class="contact">
+      <div><div class="label">Resume</div><a href="assets/Timmy-Beckmann-Resume.pdf">Download PDF</a></div>
+      <div><div class="label">LinkedIn</div><a href="https://www.linkedin.com/in/timmy-beckmann/">timmy-beckmann</a></div>
+      <div><div class="label">Email</div><a href="mailto:tabeckmann@gmail.com">tabeckmann@gmail.com</a></div>
+    </div>
+
+    <div class="games">
+      <h3>I also ship games.</h3>
+      <p>As a creative outlet, I love building games in Godot. I enjoy collaborating and learning with friends who are skilled 3D modelers, voice actors, and writers. Game dev ticks a lot of boxes for me: there's always more to learn, systems and templates are essential, performance matters on weaker hardware, and like stop motion, I'm only designing for what the player sees and hears. <a href="https://timmy-beckmann.itch.io/15-minutes">Play my latest game, 15 Minutes, on itch.io</a></p>
+    </div>
+
+    <div class="about-photo">
+      <img src="assets/about-photo.jpg" alt="Timmy Beckmann">
+    </div>
+
+    <div class="about-games-media">
+      <img src="assets/games.gif" alt="15 Minutes gameplay">
     </div>
 
   </div>
-
-</section>
+</div>
 
 <footer class="site">
   <div class="inner">
