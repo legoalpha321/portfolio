@@ -43,7 +43,7 @@ nav.top{
   padding:24px 32px;max-width:var(--maxMedia);margin:0 auto;font-size:14px;
 }
 .logo{display:inline-flex;align-items:center;text-decoration:none;color:var(--accent);font-weight:700;font-size:21px;letter-spacing:-0.03em}
-.logo img{height:30px;width:auto;display:block}
+.logo img{height:45px;width:auto;display:block}
 nav.top .links a{color:var(--ink);text-decoration:none;margin-left:26px;opacity:.65;position:relative;padding-bottom:4px;transition:opacity .15s}
 nav.top .links a:hover{opacity:1}
 nav.top .links a.active{opacity:1}
