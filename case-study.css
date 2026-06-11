@@ -51,7 +51,9 @@ nav.top .links a.active::after{content:"";position:absolute;left:0;right:0;botto
 
 /* ---------- spacing rhythm ---------- */
 section{padding:64px 0}
-.hero{padding-top:48px;padding-bottom:40px}
+.hero{padding-top:40px;padding-bottom:28px}
+.hero .text{max-width:none}            /* let the title run full width (one line) */
+.hero .lead{max-width:760px}           /* but keep the lead readable */
 
 /* ---------- video (Vimeo slot) ---------- */
 .video{
