@@ -169,8 +169,8 @@ footer.site .f-social svg{width:19px;height:19px;display:block;fill:currentColor
 .lb-close:hover{opacity:1}
 
 /* ---------- landing ---------- */
-.landing{display:flex;flex-direction:column;align-items:center;padding:24px 0 8px}
-.landing .reel{width:100%;max-width:min(var(--maxMedia), calc((100vh - 260px) * 16 / 9))}
+.landing{padding:24px 0 8px}
+.landing .reel{max-width:min(var(--maxMedia), calc((100vh - 260px) * 16 / 9));margin:0 auto}
 
 /* ---------- responsive ---------- */
 @media(max-width:900px){.gal{grid-template-columns:repeat(2,1fr)}}
