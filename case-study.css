@@ -11,7 +11,7 @@
   --accent:#CA413A;    /* logo red — the ONLY color */
   --band:#EFEDE7;      /* footer / callout fill */
   --maxText:680px;
-  --maxMedia:1080px;
+  --maxMedia:1280px;
   --radius:0;          /* sharp everywhere */
 }
 *{box-sizing:border-box;margin:0;padding:0}
