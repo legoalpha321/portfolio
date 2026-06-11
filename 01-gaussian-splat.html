@@ -27,8 +27,8 @@
     <div class="kicker">Case Study 01 — Frontier Craft</div>
     <h1>Gaussian Splat Opener</h1>
     <p class="lead" style="margin-top:24px">
-      A three minute journey from a single snow particle up to a mountain summit, built from AI stills
-      turned into animated 3D Gaussian splats and rendered to a 143 foot LED wall for the Day 1 keynote.
+      A three minute journey from a single snow particle up to a mountain summit, built by turning AI
+      stills into 3D Gaussian splats I could fly a camera through.
     </p>
   </div>
   <div style="margin-top:40px">
@@ -36,7 +36,6 @@
       <span class="play"></span>
       <!-- Live: <iframe src="https://player.vimeo.com/video/VIDEO_ID?title=0&byline=0&portrait=0&dnt=1" allow="fullscreen; picture-in-picture" allowfullscreen></iframe> -->
     </div>
-    <div class="media-cap">Output, the Day 1 keynote opener, 3:00.</div>
   </div>
 </header>
 
@@ -46,7 +45,7 @@
     <div><div class="label">Role</div><div class="val">Brand Motion Graphics Designer</div></div>
     <div><div class="label">Year</div><div class="val">2026</div></div>
     <div><div class="label">Scope</div><div class="val">Day 1 keynote opener, Snowflake Summit · 7,000 in the room plus livestream · 143 ft LED wall</div></div>
-    <div class="tools"><div class="label">Tools</div><div class="val">After Effects · <span>Nano Banana Pro</span> · <span>Apple SHARP</span> · KBar · d3 Disguise</div></div>
+    <div class="tools"><div class="label">Tools</div><div class="val">After Effects · <span>Nano Banana Pro</span> · <span>Apple SHARP</span> · Irrealix · <span>Claude Code</span> · JSX</div></div>
   </div>
 </div>
 
@@ -56,11 +55,12 @@
     <div class="section-label">The Brief</div>
     <h2>Open the biggest keynote of the year with something nobody had seen before.</h2>
     <p style="margin-top:22px">
-      The Day 1 opener is the first thing 7,000 people in the room see before the CEO walks out, and it
-      sets the tone for the whole four day conference. They wanted a three minute piece that felt frontier
-      and photorealistic, but still completely art directed. It had to lock 30 days before the show with
-      zero room to break on a 143 foot wall. A live violinist would be playing over it, so the timing had
-      to be exact.
+      To set the stage for Sridhar Ramaswamy's keynote at Snowflake Summit, we wanted to take the 7,000
+      people in the room on a photorealistic journey: from a single snow particle, through a forest, into
+      an icy cave, and finally up to a summit peak overlooking a bed of clouds. A live violinist would
+      accompany the piece, so the timing had to be exact. AI video models lacked the control we needed and
+      the cost of generations stacked up fast. And the delivery format, a 143 foot LED wall, meant the
+      resolution had to be enormous while long render times could put the whole show at risk.
     </p>
   </div>
 </section>
@@ -73,12 +73,16 @@
     <div class="m-text">
       <h3>Turning a single AI still into a 3D world I could fly through.</h3>
       <p>
-        It started from pencil storyboards a coworker sketched out. From those I generated the source
-        stills in Nano Banana Pro, so I could dial in the exact color, amount of snow, framing, and camera
-        angle for every scene. Apple SHARP converted each still into a 3D Gaussian splat, and I animated
-        the camera through them in After Effects. Basically it gave me a photorealistic space with real
-        depth that I could move through however I wanted. A normal 2D treatment can't fake that, and AI
-        video generation falls apart at this resolution.
+        From pencil storyboards a coworker sketched out, I generated the stills in Nano Banana Pro, so I
+        could dial in the exact color, amount of snow, framing, and camera angle for every scene. Then,
+        using Apple's SHARP library together with Claude Code, I built a JSX button in After Effects that
+        converts any still into a 3D Gaussian splat in a single click. From there I could animate a 3D
+        camera through the splats and push the particle size around for trippy effects with Irrealix's
+        Gaussian Splat plugin. Those tools combined into a new workflow that gave me photorealistic
+        flythroughs with complete camera and color control, all running on only three layers in After
+        Effects. And thanks to my VFX background, I could composite in the details that bring an otherwise
+        static splat scene to life: birds in the distance, light refracting off the ice cave walls, snow
+        drifting past as the camera glides across the mountain.
       </p>
     </div>
     <div class="m-media"><div class="ph">Pencil storyboard → Nano Banana Pro still → 3D Gaussian splat</div></div>
@@ -88,27 +92,15 @@
     <div class="m-text">
       <h3>30 minutes to render, all on a MacBook.</h3>
       <p>
-        The whole three minute opener rendered in 30 minutes. No render farm, just my laptop. AI video
-        generation would have cost a fortune and still wouldn't have held up on a 143 foot wall. The splat
-        pipeline gave me total camera and color control, it was cheap, and it was fast enough to actually
-        iterate.
+        Here's my favorite part: the whole three minute opener rendered in 30 minutes. No render farm,
+        just my MacBook. Gaussian splats are made of hundreds of thousands of tiny points, but they're
+        extremely efficient to render, so I'd hit my favorite trifecta: cheap, fast, and it looked
+        incredible. Changes were trivial too. Wanted more snow? I'd generate a tweaked still, click the
+        button, done. A different camera angle was just two keyframes. That iteration speed is the thing AI
+        video generation can't give you.
       </p>
     </div>
     <div class="m-media"><div class="ph">AE camera path through the splat field</div></div>
-  </div>
-
-  <div class="module">
-    <div class="m-text">
-      <h3>One throughline the whole room could feel.</h3>
-      <p>
-        The piece moves from a single snow particle, through a forest with a stream running through it,
-        past a flower blooming, into a cave, out to a mountain in the distance, then up the face in a few
-        flyover shots until the sun sets over the summit. This is an AI and data conference, so grounding
-        everyone in something real and natural before all the technical jargon mattered a lot. I scored it
-        with nature sound design too, wind and footsteps in the snow, to really put people there.
-      </p>
-    </div>
-    <div class="m-media"><div class="ph">Journey stills, particle → forest → cave → summit</div></div>
   </div>
 </section>
 
@@ -117,8 +109,10 @@
   <div class="text"><div class="section-label">On the Wall</div></div>
   <div class="ph" style="aspect-ratio:21/9">Photo, opener running on the 143 ft wall with the live violinist</div>
   <div class="text"><p style="margin-top:22px">
-    A live violinist played over it on the 143 foot wall, in front of 7,000 people, with the whole thing
-    livestreamed. It was the palate cleanser right before the CEO walked out.
+    The cherry on top was the sound design. I scored the whole piece with nature SFX, wind, footsteps
+    crunching through snow, so the room was fully immersed before a word was spoken. Sitting in the
+    keynote hall at Moscone when it played, with the live violinist, the lighting design, and the camera
+    direction all hitting at once, it genuinely moved the room and set the stage for Sridhar.
   </p></div>
 </section>
 
@@ -130,9 +124,9 @@
     <p style="margin-top:22px">
       Every Summit I try to land one new frontier technique that becomes the signature of that keynote.
       2025 was the microscopic snowflakes, 2026 was Gaussian splats. And the splat workflow didn't stay a
-      one off. I wired the whole multi step conversion into a single KBar button in After Effects, so
-      anyone on the team can fire it without babysitting the process. A 30 minute render means the look
-      lives in our toolkit now, not behind a render farm.
+      one off. Because the whole multi step conversion was wired into a single button in After Effects, I
+      could hand it to my teammates, and we used the splat treatment as palate cleansers throughout the
+      rest of the keynote.
     </p>
   </div>
   <div class="stats">
@@ -146,8 +140,8 @@
 <!-- 7 · PREV / NEXT -->
 <div class="wrap">
   <div class="pager">
-    <a href="06-mogrt-automation.html"><span class="dir">← Prev</span><span class="t">Mogrt Automation</span></a>
-    <a href="02-microscopic-snowflakes.html" style="text-align:right"><span class="dir">Next →</span><span class="t">Microscopic Snowflakes</span></a>
+    <a href="06-snowflake-build.html"><span class="dir">← Prev</span><span class="t">Snowflake Build</span></a>
+    <a href="02-mogrt-automation.html" style="text-align:right"><span class="dir">Next →</span><span class="t">Mogrt Automation</span></a>
   </div>
 </div>
 

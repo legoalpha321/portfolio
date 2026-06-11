@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Snowflake Build — Timmy Beckmann</title>
+<title>Microscopic Snowflakes — Timmy Beckmann</title>
 <link rel="icon" href="assets/logo.png">
 <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
 <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
@@ -24,11 +24,10 @@
 <!-- 1 · HERO -->
 <header class="hero wrap">
   <div class="text">
-    <div class="kicker">Case Study 03 — 3D &amp; Realtime</div>
-    <h1>Snowflake Build</h1>
+    <div class="kicker">Case Study 03 — Frontier Craft</div>
+    <h1>Microscopic Snowflakes</h1>
     <p class="lead" style="margin-top:24px">
-      The darker, more cinematic side of the Snowflake brand. Five years running the 3D for Snowflake's
-      developer conference.
+      Snowflakes forming like you're watching them under a microscope, except every bit of it is art directed.
     </p>
   </div>
   <div style="margin-top:40px">
@@ -36,7 +35,6 @@
       <span class="play"></span>
       <!-- Live: <iframe src="https://player.vimeo.com/video/VIDEO_ID?title=0&byline=0&portrait=0&dnt=1" allow="fullscreen; picture-in-picture" allowfullscreen></iframe> -->
     </div>
-    <div class="media-cap">Output, a Build opener.</div>
   </div>
 </header>
 
@@ -44,9 +42,9 @@
 <div class="wrap">
   <div class="meta">
     <div><div class="label">Role</div><div class="val">Brand Motion Graphics Designer</div></div>
-    <div><div class="label">Year</div><div class="val">2021–2025, every November</div></div>
-    <div><div class="label">Scope</div><div class="val">Openers, promos, and the full keynote graphics package, livestreamed (27k viewers in 2025)</div></div>
-    <div class="tools"><div class="label">Tools</div><div class="val"><span>Unreal Engine</span> · Element 3D · <span>Polycam</span> · After Effects</div></div>
+    <div><div class="label">Year</div><div class="val">2025</div></div>
+    <div><div class="label">Scope</div><div class="val">Day 2 keynote opener (5 min, live orchestra), CEO keynote moments, and pre and post show graphics, Snowflake Summit</div></div>
+    <div class="tools"><div class="label">Tools</div><div class="val"><span>Midjourney</span> · Trapcode Mir · <span>Runway</span> · Topaz Video · After Effects</div></div>
   </div>
 </div>
 
@@ -54,13 +52,11 @@
 <section class="wrap">
   <div class="text">
     <div class="section-label">The Brief</div>
-    <h2>Take the Snowflake brand somewhere darker and more cinematic.</h2>
+    <h2>Make something that feels real and analog in a keynote that's mostly screens and text.</h2>
     <p style="margin-top:22px">
-      Build is Snowflake's developer conference, every November, basically a mini Summit aimed at
-      developers. Summit is bright, core brand, full of Snowflake blue. For Build we push the opposite
-      direction, more cinematic and dramatic, with the snowflake bug logo built out in 3D, lots of lens
-      flares, and heavier music. Each year I make a short teaser, a longer promo, three opener videos, and
-      refresh the whole intro, outro, lower third, and transition package.
+      A keynote is hours of bright graphics and text animation. We wanted moments that felt real and analog
+      to break that up, something that looked like actual microscope footage of snowflakes forming. Stock
+      footage of that didn't exist, so I had to come up with a brand new workflow.
     </p>
   </div>
 </section>
@@ -71,43 +67,45 @@
 
   <div class="module">
     <div class="m-text">
-      <h3>Deconstructing the logo in wireframe.</h3>
+      <h3>Building fake microscope footage that holds up as real.</h3>
       <p>
-        The wireframe look is the heart of it. Taking our snowflake bug into 3D and breaking it down in
-        wireframe feels like deconstructing the brand in a good way, which is exactly the cinematic,
-        developer tone Build wants. It's the clearest contrast with the brighter Summit direction, and
-        honestly it's the work I have the most fun on.
+        I began by generating snowflake textures in Midjourney, then used Rowbyte's AutoFill plugin to
+        reveal them dynamically. That growing texture drove Trapcode Mir, which gave it real 3D depth so I
+        could place a camera exactly where I wanted. Runway's style transfer applied an icy texture to the
+        otherwise flat, unshaded geometry. And then the secret sauce: I upscaled the clips in Topaz, dropped
+        them to 15fps, added out of focus 3D particles that shifted every frame, and wiggled the exposure to
+        sell the illusion of timelapse photography. A final pass added glow, depth of field bokeh, analog
+        film noise, and color correction. I studied what real microscope footage of ice forming I could find
+        to get the look exactly right.
       </p>
     </div>
-    <div class="m-media"><div class="ph">Snowflake bug, wireframe deconstruction</div></div>
+    <div class="m-media"><div class="ph">Pipeline, texture → Mir depth → Runway → grade</div></div>
   </div>
 
   <div class="module">
     <div class="m-text">
-      <h3>Putting real developers inside the 3D scene.</h3>
+      <h3>Enough control to grow the logo out of the ice.</h3>
       <p>
-        I used Polycam to scan actual Snowflake developers and drop them into the art, so as the camera
-        flies around the scene you see real people. I also filmed them on green screen, so for the moments
-        where they're talking I transition seamlessly into the green screen footage, then back to the
-        Polycam geometry when the camera moves around them in 3D. I'd switch between Element 3D and Unreal
-        depending on which gave me the better shot.
+        Because the style transfer was driven by real geometry instead of a raw generation, I had full
+        control over what formed. I grew the ice into the Snowflake logo, right alongside the randomly
+        forming crystals. That's the part you can't get by just asking an AI for microscope footage.
       </p>
     </div>
-    <div class="m-media"><div class="ph">Polycam scan → green screen → 3D scene</div></div>
+    <div class="m-media"><div class="ph">Ice forming into the Snowflake logo</div></div>
   </div>
 </section>
 
-<!-- 5 · FIVE YEARS -->
+<!-- 5 · ACROSS THE KEYNOTE -->
 <section class="wrap">
-  <div class="text"><div class="section-label">Five Years Side by Side</div></div>
+  <div class="text"><div class="section-label">Across the Keynote</div></div>
   <div class="three-up">
-    <div class="cell"><div class="ph">2021–22</div><span class="tag">Opener</span></div>
-    <div class="cell"><div class="ph">2023–24</div><span class="tag">Opener</span></div>
-    <div class="cell"><div class="ph">2025</div><span class="tag">Opener</span></div>
+    <div class="cell"><div class="ph">Day 2 opener</div><span class="tag">Moment</span></div>
+    <div class="cell"><div class="ph">Behind the CEO</div><span class="tag">Moment</span></div>
+    <div class="cell"><div class="ph">Pre & post show</div><span class="tag">Moment</span></div>
   </div>
   <div class="text"><p style="margin-top:22px">
-    Line the openers up and you can watch the craft get more refined each year, as the tools and my skills
-    caught up to the ideas.
+    The effect carried three moments, the Day 2 opener built around a live orchestra, the screens behind
+    the CEO, and the pre and post show graphics while the room was filling in.
   </p></div>
 </section>
 
@@ -115,25 +113,26 @@
 <section class="wrap">
   <div class="text">
     <div class="section-label">How It Scales</div>
-    <h2>Five years of pushing the same event further.</h2>
+    <h2>The same idea works on almost anything.</h2>
     <p style="margin-top:22px">
-      This one is less a system than a five year progression. I've led the 3D for Build every year since
-      2021, and each year is a step up in what I can pull off. You can line the openers up side by side and
-      watch the craft get more refined as the tools and my skills caught up to the ideas.
+      The effect ended up everywhere in that keynote, the Day 2 opener, behind the CEO, and the pre and post
+      show graphics while the room filled in. And I've reused the core idea since, a simple animation or
+      piece of 3D geometry driving a fancier 3D render, both on Snowflake Build and quietly inside the 2026
+      Summit keynote. It's a way of working I keep coming back to, to get the most out of a render.
     </p>
   </div>
   <div class="stats">
-    <div><div class="num">5 years</div><div class="desc">Leading Build's 3D since 2021</div></div>
-    <div><div class="num">27k</div><div class="desc">2025 livestream viewers, up from 20k</div></div>
-    <div><div class="num">5 videos</div><div class="desc">A teaser, a promo, three openers, plus the package</div></div>
-    <div><div class="num">16:9, 1080p</div><div class="desc">Built for the livestream</div></div>
+    <div><div class="num">5 min</div><div class="desc">Day 2 opener, built around a live orchestra</div></div>
+    <div><div class="num">12 shots</div><div class="desc">Rendered at 1920×720</div></div>
+    <div><div class="num">No farm</div><div class="desc">All on a MacBook</div></div>
+    <div><div class="num">3 moments</div><div class="desc">Opener, CEO keynote, pre and post show</div></div>
   </div>
 </section>
 
 <!-- 7 · PREV / NEXT -->
 <div class="wrap">
   <div class="pager">
-    <a href="02-microscopic-snowflakes.html"><span class="dir">← Prev</span><span class="t">Microscopic Snowflakes</span></a>
+    <a href="02-mogrt-automation.html"><span class="dir">← Prev</span><span class="t">Mogrt Automation</span></a>
     <a href="04-olympics.html" style="text-align:right"><span class="dir">Next →</span><span class="t">Snowflake × Olympics</span></a>
   </div>
 </div>
