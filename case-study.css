@@ -98,6 +98,10 @@ section{padding:64px 0}
 .three-up video,.three-up img{aspect-ratio:3/4}
 .two-two video,.two-two img,.three-two video,.three-two img,.four-up video,.four-up img{aspect-ratio:16/9}
 
+/* equal-height row — keeps each item's native aspect ratio (for showing multiple formats side by side) */
+.formats{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;align-items:flex-start}
+.formats video,.formats img{height:clamp(240px,32vw,420px);width:auto;max-width:100%;display:block;border:1px solid var(--line);background:#ECE9E0}
+
 /* ---------- meta strip ---------- */
 .meta{
   border-top:1px solid var(--line);border-bottom:1px solid var(--line);
