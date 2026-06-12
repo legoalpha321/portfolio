@@ -24,6 +24,9 @@ body{
   line-height:1.65;
   -webkit-font-smoothing:antialiased;
   text-rendering:optimizeLegibility;
+  /* min-height only — NO flex/grid on body (that breaks the margin:0 auto
+     centering used by .wrap and the footer). The footer pins itself below. */
+  min-height:100vh;
 }
 .wrap{max-width:var(--maxMedia);margin:0 auto;padding:0 32px}
 .text{max-width:var(--maxText)}
@@ -111,7 +114,11 @@ section{padding:64px 0}
 .pager .t{font-weight:600;font-size:20px}
 
 /* ---------- site footer (grey band, 3-part) ---------- */
-footer.site{background:var(--band);border-top:1px solid var(--line);margin-top:72px}
+/* position:sticky + top:100vh pins the footer to the bottom of the viewport
+   on short pages (no whitespace below) WITHOUT changing body's layout, so the
+   margin:0 auto centering everywhere else is untouched. On tall pages it just
+   flows after the content with the normal 72px gap. */
+footer.site{background:var(--band);border-top:1px solid var(--line);margin-top:72px;position:sticky;top:100vh}
 footer.site .inner{
   max-width:var(--maxMedia);margin:0 auto;padding:30px 32px;
   display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:24px;
