@@ -1,0 +1,190 @@
+{
+  "featured": [
+    {
+      "file": "sunset-drive.jpg",
+      "title": "Sunset Drive",
+      "desc": "Realtime Unreal music video, facial capture",
+      "blurb": "A music video made entirely in Unreal Engine, in realtime. We used Ready Player Me avatars driven by the artist's own facial capture, and pulled the whole thing off in under three weeks.",
+      "vimeo": ""
+    },
+    {
+      "file": "safe.jpg",
+      "title": "Safe",
+      "desc": "AI style-transfer drill video",
+      "blurb": "A drill music video built on AI style transfer. We shot the artist on a green screen fall mat and across a corner store, then moved between heaven and the real world through trippy transitions. A week of planning, two days shooting, three days editing.",
+      "vimeo": ""
+    },
+    {
+      "file": "data-for-breakfast.jpg",
+      "title": "Data for Breakfast",
+      "desc": "Recurring event-series identity",
+      "blurb": "A recurring Snowflake event series with a simple, friendly design and fun animation to settle the room.",
+      "vimeo": ""
+    }
+  ],
+  "snowflake": [
+    {
+      "file": "stipple.jpg",
+      "title": "Stipple",
+      "desc": "2025 keynote signature, particle aurora",
+      "blurb": "The signature technique of the 2025 keynote. An aurora borealis built out of individual particles, the same effect dynamically forming dots into different images including a BMW and Caterpillar machinery.",
+      "vimeo": ""
+    },
+    {
+      "file": "summit-live.jpg",
+      "title": "Summit Live Production",
+      "desc": "Event graphics across Moscone",
+      "blurb": "Event graphics around Moscone, from the LED walls as you walk in to the keynote screens, all delivered into the d3 Disguise media server the live show runs on, working alongside the show's d3 operator.",
+      "vimeo": ""
+    },
+    {
+      "file": "cracking-the-code.jpg",
+      "title": "Cracking the Code",
+      "desc": "Templated 4-part developer series",
+      "blurb": "A four part developer series, built as a templated MOGRT system so editors could handle the demo screens, titles, and transitions themselves.",
+      "vimeo": ""
+    },
+    {
+      "file": "developer-channel.jpg",
+      "title": "Snowflake Developer Channel",
+      "desc": "Intro / outro / lower-third system",
+      "blurb": "Intros, outros, and lower thirds with a digital, Matrix style mosaic look, kept on brand.",
+      "vimeo": ""
+    },
+    {
+      "file": "brand-manifesto.jpg",
+      "title": "Brand Manifesto",
+      "desc": "Company brand film",
+      "blurb": "Stock footage cut together with Snowflake branded motion graphics to promote the company.",
+      "vimeo": ""
+    },
+    {
+      "file": "recurring-series.jpg",
+      "title": "Recurring Series Packages",
+      "desc": "Data Cloud Now · Predictions · MMDS",
+      "blurb": "Recurring event packages built to be repurposed by location and topic, including animated key art and a full LED background for Predictions.",
+      "vimeo": ""
+    },
+    {
+      "file": "aws.jpg",
+      "title": "Snowflake × AWS",
+      "desc": "Partner social film",
+      "blurb": "Snowflake × AWS partner social film.",
+      "vimeo": ""
+    },
+    {
+      "file": "qualcomm.jpg",
+      "title": "Snowflake × Qualcomm",
+      "desc": "Partner social film",
+      "blurb": "Snowflake × Qualcomm partner social film.",
+      "vimeo": ""
+    },
+    {
+      "file": "roku.jpg",
+      "title": "Snowflake × Roku",
+      "desc": "Partner social film",
+      "blurb": "Snowflake × Roku partner social film.",
+      "vimeo": ""
+    },
+    {
+      "file": "burj-khalifa.jpg",
+      "title": "Snowflake × Burj Khalifa",
+      "desc": "Partner social film",
+      "blurb": "Snowflake × Burj Khalifa partner social film.",
+      "vimeo": ""
+    },
+    {
+      "file": "bumble.jpg",
+      "title": "Snowflake × Bumble",
+      "desc": "Partner social film",
+      "blurb": "Snowflake × Bumble partner social film.",
+      "vimeo": ""
+    },
+    {
+      "file": "opentable.jpg",
+      "title": "Snowflake × OpenTable",
+      "desc": "Partner social film",
+      "blurb": "Snowflake × OpenTable partner social film.",
+      "vimeo": ""
+    },
+    {
+      "file": "snapchat.jpg",
+      "title": "Snowflake × Snapchat",
+      "desc": "Partner social film",
+      "blurb": "Snowflake × Snapchat partner social film.",
+      "vimeo": ""
+    },
+    {
+      "file": "callaway.jpg",
+      "title": "Snowflake × Callaway",
+      "desc": "Partner social film",
+      "blurb": "Snowflake × Callaway partner social film.",
+      "vimeo": ""
+    },
+    {
+      "file": "natoma.jpg",
+      "title": "Snowflake × Natoma",
+      "desc": "Acquisition announcement",
+      "blurb": "Snowflake × Natoma acquisition announcement.",
+      "vimeo": ""
+    },
+    {
+      "file": "observe.jpg",
+      "title": "Snowflake × Observe",
+      "desc": "Acquisition announcement",
+      "blurb": "Snowflake × Observe acquisition announcement.",
+      "vimeo": ""
+    }
+  ],
+  "earlier": [
+    {
+      "file": "no-love-lost.jpg",
+      "title": "No Love Lost",
+      "desc": "Bed-Stuy cinematic web series",
+      "blurb": "A cinematic web series shot in Bed-Stuy, in local businesses and with actors from the neighborhood.",
+      "vimeo": ""
+    },
+    {
+      "file": "ingrained.jpg",
+      "title": "IngrainedNYC",
+      "desc": "Asian-diaspora documentaries",
+      "blurb": "Editing on a set of Asian diaspora documentaries, made at the height of COVID and Stop Asian Hate.",
+      "vimeo": ""
+    },
+    {
+      "file": "street-interviews.jpg",
+      "title": "NYC Street Interviews",
+      "desc": "Comic-Con to the 2020 protests",
+      "blurb": "Me and my roommate taking a camera and a handheld mic around the city, from Comic-Con to the 2020 protests.",
+      "vimeo": ""
+    },
+    {
+      "file": "isolicious.jpg",
+      "title": "Isolicious",
+      "desc": "Fashion ad",
+      "blurb": "A fashion ad for a local business.",
+      "vimeo": ""
+    },
+    {
+      "file": "novacane.jpg",
+      "title": "Ki Militia, \"Novacane\"",
+      "desc": "VR / VFX music video",
+      "blurb": "A music video I shot and directed about a virtual date in VR that flips when the two people switch places. Lots of VFX and trippy shots. Same artist as Sunset Drive.",
+      "vimeo": ""
+    },
+    {
+      "file": "clouse.jpg",
+      "title": "Clouse",
+      "desc": "48-hour film, December 2025",
+      "blurb": "A short made with friends for a 48 hour film festival in December 2025, about a person living inside another person, feeding them toxic alpha male advice.",
+      "vimeo": ""
+    },
+    {
+      "file": "nyu-48.jpg",
+      "title": "NYU 48 Hour Film",
+      "desc": "Best Picture, Feb 2020",
+      "blurb": "Wrote, shot, directed, and edited a short for NYU's official 48 hour festival in February 2020. It won Best Picture.",
+      "vimeo": ""
+    }
+  ]
+}
