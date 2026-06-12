@@ -26,6 +26,14 @@
   ],
   "snowflake": [
     {
+      "file": "cocolaunch.gif",
+      "title": "Cortex Code Launch",
+      "desc": "Snowflake Cortex Code product launch",
+      "blurb": "Launch video for Snowflake Cortex Code. Built on reusable MOGRT templates with ElevenLabs VO, part of a biweekly product release cadence in partnership with the product team.",
+      "vimeo": "1200626650",
+      "vimeo_hash": "5997a69315"
+    },
+    {
       "file": "stipple.jpg",
       "title": "Stipple",
       "desc": "2025 keynote signature, particle aurora",
