@@ -37,9 +37,9 @@
   <div class="gal-section">
     <div class="section-label">Featured</div>
     <div class="gal">
-      <button class="gitem" data-vimeo="" data-title="Sunset Drive" data-blurb="A music video made entirely in Unreal Engine, in realtime. We used Ready Player Me avatars driven by the artist's own facial capture, and pulled the whole thing off in under three weeks.">
-        <span class="gthumb"><img src="thumbs/sunset-drive.jpg" alt="" onerror="this.remove()"><span class="gt-fallback">Sunset Drive</span></span>
-        <h4>Sunset Drive</h4><p>Realtime Unreal music video, facial capture</p>
+      <button class="gitem" data-vimeo="1200624030" data-vimeo-hash="2acb784254" data-title="Sunset Drive" data-blurb="Built entirely in Unreal Engine, in realtime. Ki Militia&apos;s avatar was driven by the artist&apos;s own facial capture — no traditional filming needed. Start to finish in under three weeks.">
+        <span class="gthumb"><img src="thumbs/sunsetdrive.gif" alt="" onerror="this.remove()"><span class="gt-fallback">Sunset Drive</span></span>
+        <h4>Sunset Drive</h4><p>Realtime Unreal Engine music video, Ki Militia</p>
       </button>
       <button class="gitem" data-vimeo="" data-title="Safe" data-blurb="A drill music video built on AI style transfer. We shot the artist on a green screen fall mat and across a corner store, then moved between heaven and the real world through trippy transitions. A week of planning, two days shooting, three days editing.">
         <span class="gthumb"><img src="thumbs/safe.jpg" alt="" onerror="this.remove()"><span class="gt-fallback">Safe</span></span>
@@ -189,9 +189,10 @@
 
   function openLB(el){
     const id=el.dataset.vimeo;
+    const hash=el.dataset.vimeoHash;
     lbTitle.textContent=el.dataset.title||'';
     lbBlurb.textContent=el.dataset.blurb||'';
-    frame.src = id ? `https://player.vimeo.com/video/${id}?autoplay=1&title=0&byline=0&portrait=0&dnt=1` : '';
+    frame.src = id ? `https://player.vimeo.com/video/${id}?autoplay=1${hash?'&h='+hash:''}&title=0&byline=0&portrait=0&dnt=1` : '';
     lb.classList.add('open');
     lb.setAttribute('aria-hidden','false');
     document.body.style.overflow='hidden';

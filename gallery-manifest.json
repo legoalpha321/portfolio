@@ -1,11 +1,12 @@
 {
   "featured": [
     {
-      "file": "sunset-drive.jpg",
+      "file": "sunsetdrive.gif",
       "title": "Sunset Drive",
-      "desc": "Realtime Unreal music video, facial capture",
-      "blurb": "A music video made entirely in Unreal Engine, in realtime. We used Ready Player Me avatars driven by the artist's own facial capture, and pulled the whole thing off in under three weeks.",
-      "vimeo": ""
+      "desc": "Realtime Unreal Engine music video, Ki Militia",
+      "blurb": "Built entirely in Unreal Engine, in realtime. Ki Militia's avatar was driven by the artist's own facial capture — no traditional filming needed. Start to finish in under three weeks.",
+      "vimeo": "1200624030",
+      "vimeo_hash": "2acb784254"
     },
     {
       "file": "safe.jpg",
