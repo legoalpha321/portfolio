@@ -16,11 +16,12 @@
       "vimeo": ""
     },
     {
-      "file": "data-for-breakfast.jpg",
+      "file": "dataforbreakfast.jpg",
       "title": "Data for Breakfast",
-      "desc": "Recurring event-series identity",
-      "blurb": "A recurring Snowflake event series with a simple, friendly design and fun animation to settle the room.",
-      "vimeo": ""
+      "desc": "Snowflake event series opener",
+      "blurb": "The opener shown at every Snowflake Data for Breakfast event to warm up the room before the show. Built the full asset suite for the series alongside it.",
+      "vimeo": "1200625982",
+      "vimeo_hash": "20808d325b"
     }
   ],
   "snowflake": [
