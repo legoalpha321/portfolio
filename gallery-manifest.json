@@ -46,11 +46,12 @@
       "vimeo": ""
     },
     {
-      "file": "developer-channel.jpg",
+      "file": "snowflakedevelopers.jpg",
       "title": "Snowflake Developer Channel",
-      "desc": "Intro / outro / lower-third system",
+      "desc": "Full channel branding",
       "blurb": "Intros, outros, and lower thirds with a digital, Matrix style mosaic look, kept on brand.",
-      "vimeo": ""
+      "vimeo": "1200638042",
+      "vimeo_hash": "a217b57e0d"
     },
     {
       "file": "recurring-series.jpg",
@@ -58,6 +59,14 @@
       "desc": "Data Cloud Now · Predictions · MMDS",
       "blurb": "Recurring event packages built to be repurposed by location and topic, including animated key art and a full LED background for Predictions.",
       "vimeo": ""
+    },
+    {
+      "file": "mmds.jpg",
+      "title": "Modern Marketing Data Stack",
+      "desc": "Livestream event graphics package",
+      "blurb": "Full graphics package for the Modern Marketing Data Stack livestream — lower thirds, intros, outros, and transitions built as a reusable system.",
+      "vimeo": "1200637199",
+      "vimeo_hash": "0663c47425"
     },
     {
       "file": "anthropic.jpg",
@@ -70,49 +79,49 @@
     {
       "file": "aws.jpg",
       "title": "Snowflake × AWS",
-      "desc": "Partner social film",
+      "desc": "Partner social short",
       "blurb": "Snowflake × AWS partner social film.",
       "vimeo": ""
     },
     {
       "file": "qualcomm.jpg",
       "title": "Snowflake × Qualcomm",
-      "desc": "Partner social film",
+      "desc": "Partner social short",
       "blurb": "Snowflake × Qualcomm partner social film.",
       "vimeo": ""
     },
     {
       "file": "roku.jpg",
       "title": "Snowflake × Roku",
-      "desc": "Partner social film",
+      "desc": "Partner social short",
       "blurb": "Snowflake × Roku partner social film.",
       "vimeo": ""
     },
     {
       "file": "burj-khalifa.jpg",
       "title": "Snowflake × Burj Khalifa",
-      "desc": "Partner social film",
+      "desc": "Partner social short",
       "blurb": "Snowflake × Burj Khalifa partner social film.",
       "vimeo": ""
     },
     {
       "file": "bumble.jpg",
       "title": "Snowflake × Bumble",
-      "desc": "Partner social film",
+      "desc": "Partner social short",
       "blurb": "Snowflake × Bumble partner social film.",
       "vimeo": ""
     },
     {
       "file": "opentable.jpg",
       "title": "Snowflake × OpenTable",
-      "desc": "Partner social film",
+      "desc": "Partner social short",
       "blurb": "Snowflake × OpenTable partner social film.",
       "vimeo": ""
     },
     {
       "file": "snapchat.jpg",
       "title": "Snowflake × Snapchat",
-      "desc": "Partner social film",
+      "desc": "Partner social short",
       "blurb": "",
       "vimeo": "1200627411",
       "vimeo_hash": "1db542ad25"
@@ -120,7 +129,7 @@
     {
       "file": "callaway.gif",
       "title": "Snowflake × Callaway",
-      "desc": "Partner social film",
+      "desc": "Partner social short",
       "blurb": "LinkedIn social post for the Snowflake × Callaway partnership.",
       "vimeo": "1200631107",
       "vimeo_hash": "1f6116985c"
