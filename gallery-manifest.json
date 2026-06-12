@@ -9,19 +9,20 @@
       "vimeo_hash": "2acb784254"
     },
     {
-      "file": "safe.jpg",
-      "title": "Safe",
-      "desc": "AI style-transfer drill video",
-      "blurb": "A drill music video built on AI style transfer. We shot the artist on a green screen fall mat and across a corner store, then moved between heaven and the real world through trippy transitions. A week of planning, two days shooting, three days editing.",
-      "vimeo": ""
-    },
-    {
       "file": "dataforbreakfast.jpg",
       "title": "Data for Breakfast",
       "desc": "Snowflake event series opener",
       "blurb": "The opener shown at every Snowflake Data for Breakfast event to warm up the room before the show. Built the full asset suite for the series alongside it.",
       "vimeo": "1200625982",
       "vimeo_hash": "20808d325b"
+    },
+    {
+      "file": "manifesto.gif",
+      "title": "Brand Manifesto",
+      "desc": "Company brand film",
+      "blurb": "Stock footage and Snowflake branded motion graphics cut together as a company brand film.",
+      "vimeo": "1200630029",
+      "vimeo_hash": "c9e1cf1ef4"
     }
   ],
   "snowflake": [
@@ -34,17 +35,17 @@
       "vimeo_hash": "5997a69315"
     },
     {
-      "file": "stipple.jpg",
-      "title": "Stipple",
-      "desc": "2025 keynote signature, particle aurora",
-      "blurb": "The signature technique of the 2025 keynote. An aurora borealis built out of individual particles, the same effect dynamically forming dots into different images including a BMW and Caterpillar machinery.",
+      "file": "summit-2026.jpg",
+      "title": "Summit 2026 Graphics",
+      "desc": "Keynote motion graphics, Snowflake Summit 2026",
+      "blurb": "A montage of motion graphics from Snowflake Summit 2026.",
       "vimeo": ""
     },
     {
-      "file": "summit-live.jpg",
-      "title": "Summit Live Production",
-      "desc": "Event graphics across Moscone",
-      "blurb": "Event graphics around Moscone, from the LED walls as you walk in to the keynote screens, all delivered into the d3 Disguise media server the live show runs on, working alongside the show's d3 operator.",
+      "file": "summit-2025.jpg",
+      "title": "Summit 2025 Graphics",
+      "desc": "Keynote motion graphics, Snowflake Summit 2025",
+      "blurb": "A montage of motion graphics from Snowflake Summit 2025.",
       "vimeo": ""
     },
     {
@@ -60,14 +61,6 @@
       "desc": "Intro / outro / lower-third system",
       "blurb": "Intros, outros, and lower thirds with a digital, Matrix style mosaic look, kept on brand.",
       "vimeo": ""
-    },
-    {
-      "file": "manifesto.gif",
-      "title": "Brand Manifesto",
-      "desc": "Company brand film",
-      "blurb": "Stock footage and Snowflake branded motion graphics cut together as a company brand film.",
-      "vimeo": "1200630029",
-      "vimeo_hash": "c9e1cf1ef4"
     },
     {
       "file": "recurring-series.jpg",
@@ -192,7 +185,7 @@
     },
     {
       "file": "tisch48.jpg",
-      "title": "NYU 48 Hour Film",
+      "title": "Thank You",
       "desc": "Best Picture, Feb 2020",
       "blurb": "Wrote, shot, directed, and edited a short for NYU's official 48 hour festival in February 2020. It won Best Picture.",
       "vimeo": "393303461",
