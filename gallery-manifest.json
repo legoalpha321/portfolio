@@ -77,6 +77,14 @@
       "vimeo": ""
     },
     {
+      "file": "anthropic.jpg",
+      "title": "Snowflake × Anthropic",
+      "desc": "Partnership announcement",
+      "blurb": "LinkedIn social post announcing the Snowflake × Anthropic partnership.",
+      "vimeo": "1200630366",
+      "vimeo_hash": "ab112af52c"
+    },
+    {
       "file": "aws.jpg",
       "title": "Snowflake × AWS",
       "desc": "Partner social film",
@@ -127,11 +135,12 @@
       "vimeo_hash": "1db542ad25"
     },
     {
-      "file": "callaway.jpg",
+      "file": "callaway.gif",
       "title": "Snowflake × Callaway",
       "desc": "Partner social film",
-      "blurb": "Snowflake × Callaway partner social film.",
-      "vimeo": ""
+      "blurb": "LinkedIn social post for the Snowflake × Callaway partnership.",
+      "vimeo": "1200631107",
+      "vimeo_hash": "1f6116985c"
     },
     {
       "file": "natoma.jpg",
