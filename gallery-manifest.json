@@ -204,11 +204,12 @@
       "vimeo": ""
     },
     {
-      "file": "nyu-48.jpg",
+      "file": "tisch48.jpg",
       "title": "NYU 48 Hour Film",
       "desc": "Best Picture, Feb 2020",
       "blurb": "Wrote, shot, directed, and edited a short for NYU's official 48 hour festival in February 2020. It won Best Picture.",
-      "vimeo": ""
+      "vimeo": "393303461",
+      "vimeo_hash": "809ca35b37"
     }
   ]
 }
