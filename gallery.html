@@ -75,8 +75,8 @@
         <span class="gthumb"><img src="thumbs/developer-channel.jpg" alt="" onerror="this.remove()"><span class="gt-fallback">Developer Channel</span></span>
         <h4>Snowflake Developer Channel</h4><p>Intro / outro / lower-third system</p>
       </button>
-      <button class="gitem" data-vimeo="" data-title="Brand Manifesto" data-blurb="Stock footage cut together with Snowflake branded motion graphics to promote the company.">
-        <span class="gthumb"><img src="thumbs/brand-manifesto.jpg" alt="" onerror="this.remove()"><span class="gt-fallback">Brand Manifesto</span></span>
+      <button class="gitem" data-youtube="j_5CjCGaUAk" data-title="Brand Manifesto" data-blurb="Stock footage and Snowflake branded motion graphics cut together as a company brand film.">
+        <span class="gthumb"><img src="thumbs/manifesto.gif" alt="" onerror="this.remove()"><span class="gt-fallback">Brand Manifesto</span></span>
         <h4>Brand Manifesto</h4><p>Company brand film</p>
       </button>
       <button class="gitem" data-vimeo="" data-title="Recurring Series Packages" data-blurb="Recurring event packages built to be repurposed by location and topic, including animated key art and a full LED background for Predictions.">
@@ -194,9 +194,11 @@
   function openLB(el){
     const id=el.dataset.vimeo;
     const hash=el.dataset.vimeoHash;
+    const yt=el.dataset.youtube;
     lbTitle.textContent=el.dataset.title||'';
     lbBlurb.textContent=el.dataset.blurb||'';
-    frame.src = id ? `https://player.vimeo.com/video/${id}?autoplay=1${hash?'&h='+hash:''}&title=0&byline=0&portrait=0&dnt=1` : '';
+    if(yt) frame.src=`https://www.youtube.com/embed/${yt}?autoplay=1`;
+    else frame.src=id ? `https://player.vimeo.com/video/${id}?autoplay=1${hash?'&h='+hash:''}&title=0&byline=0&portrait=0&dnt=1` : '';
     lb.classList.add('open');
     lb.setAttribute('aria-hidden','false');
     document.body.style.overflow='hidden';
