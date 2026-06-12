@@ -159,11 +159,12 @@
   ],
   "earlier": [
     {
-      "file": "no-love-lost.jpg",
+      "file": "nolovelost.jpg",
       "title": "No Love Lost",
       "desc": "Bed-Stuy cinematic web series",
       "blurb": "A cinematic web series shot in Bed-Stuy, in local businesses and with actors from the neighborhood.",
-      "vimeo": ""
+      "vimeo": "1200632077",
+      "vimeo_hash": "6b4eb00d2b"
     },
     {
       "file": "ingrained.jpg",
