@@ -1,13 +1,5 @@
 {
-  "featured": [
-    {
-      "file": "sunsetdrive.gif",
-      "title": "Sunset Drive",
-      "desc": "Realtime Unreal Engine music video, Ki Militia",
-      "blurb": "Built entirely in Unreal Engine, in realtime. Ki Militia's avatar was driven by the artist's own facial capture — no traditional filming needed. Start to finish in under three weeks.",
-      "vimeo": "1200624030",
-      "vimeo_hash": "2acb784254"
-    },
+  "snowflake": [
     {
       "file": "dataforbreakfast.jpg",
       "title": "Data for Breakfast",
@@ -23,9 +15,7 @@
       "blurb": "Stock footage and Snowflake branded motion graphics cut together as a company brand film.",
       "vimeo": "1200630029",
       "vimeo_hash": "c9e1cf1ef4"
-    }
-  ],
-  "snowflake": [
+    },
     {
       "file": "cocolaunch.gif",
       "title": "Cortex Code Launch",
@@ -151,6 +141,14 @@
     }
   ],
   "earlier": [
+    {
+      "file": "sunsetdrive.gif",
+      "title": "Sunset Drive",
+      "desc": "Realtime Unreal Engine music video, Ki Militia",
+      "blurb": "Built entirely in Unreal Engine, in realtime. Ki Militia's avatar was driven by the artist's own facial capture — no traditional filming needed. Start to finish in under three weeks.",
+      "vimeo": "1200624030",
+      "vimeo_hash": "2acb784254"
+    },
     {
       "file": "nolovelost.jpg",
       "title": "No Love Lost",
