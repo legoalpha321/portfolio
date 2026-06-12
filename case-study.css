@@ -30,13 +30,14 @@ body{
 }
 .wrap{max-width:var(--maxMedia);margin:0 auto;padding:0 32px}
 .text{max-width:var(--maxText)}
+.text.brief,.text.full{max-width:none} /* brief + How It Scales (and its lead-in paragraph) span the full content width */
 
 /* ---------- type ---------- */
 h1,h2{font-weight:600;letter-spacing:-0.02em;line-height:1.05}
 h1{font-size:clamp(40px,6vw,72px)}
 h2{font-size:clamp(26px,3vw,34px)}
 .kicker{font-size:12px;letter-spacing:0.18em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:20px}
-.section-label{font-size:12px;letter-spacing:0.18em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:18px}
+.section-label{font-size:12px;letter-spacing:0.18em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-top:64px;margin-bottom:18px}  /* margin-top gives each section a clear lead-in (section padding is killed by .wrap) */
 p{margin-bottom:18px}
 .lead{font-size:clamp(19px,2.2vw,23px);line-height:1.5;color:#33312d;font-weight:400}
 
@@ -56,7 +57,7 @@ nav.top .links a.active::after{content:"";position:absolute;left:0;right:0;botto
 section{padding:64px 0}
 .hero{padding-top:40px;padding-bottom:28px}
 .hero .text{max-width:none}            /* let the title run full width (one line) */
-.hero .lead{max-width:760px}           /* but keep the lead readable */
+.hero .lead{max-width:none}            /* lead runs full width, matching the title */
 
 /* ---------- video (Vimeo slot) ---------- */
 .video{
@@ -78,8 +79,24 @@ section{padding:64px 0}
 .two-up .ph{aspect-ratio:4/3}
 .three-up{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .three-up .ph{aspect-ratio:3/4}
+.two-two{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.two-two .ph{aspect-ratio:16/9}
+.three-two{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.three-two .ph{aspect-ratio:16/9}
+.four-up{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.four-up .ph{aspect-ratio:16/9}
 .tag{position:absolute;top:14px;left:14px;background:rgba(28,27,25,.82);color:#fff;font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:5px 10px}
 .cell{position:relative}
+
+/* ---------- real media in placeholder slots ---------- */
+.m-media video,.m-media img{width:100%;height:auto;display:block;border:1px solid var(--line);background:#ECE9E0}
+.two-up video,.two-up img,.three-up video,.three-up img,.two-two video,.two-two img,
+.three-two video,.three-two img,.four-up video,.four-up img{
+  width:100%;display:block;object-fit:cover;border:1px solid var(--line);background:#ECE9E0;
+}
+.two-up video,.two-up img{aspect-ratio:4/3}
+.three-up video,.three-up img{aspect-ratio:3/4}
+.two-two video,.two-two img,.three-two video,.three-two img,.four-up video,.four-up img{aspect-ratio:16/9}
 
 /* ---------- meta strip ---------- */
 .meta{
@@ -93,7 +110,7 @@ section{padding:64px 0}
 
 /* ---------- approach modules (text left / media right) ---------- */
 .module{margin-top:56px;display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:start}
-.module:first-of-type{margin-top:0}
+.module:first-of-type,.text + .module{margin-top:0}  /* tuck the first module up under its section label */
 .module h3{font-weight:600;font-size:20px;margin:0 0 10px}
 .module .m-text p:last-child{margin-bottom:0}
 .module .m-media{position:sticky;top:32px}
@@ -150,7 +167,7 @@ footer.site .f-social svg{width:19px;height:19px;display:block;fill:currentColor
 /* ---------- gallery ---------- */
 .gal-section{margin-top:56px}
 .gal-section:first-of-type{margin-top:40px}
-.gal-section .section-label{margin-bottom:10px}
+.gal-section .section-label{margin-top:0;margin-bottom:10px}  /* gallery handles its own spacing via .gal-section */
 .gal-section .sec-note{font-size:14px;color:var(--muted);max-width:var(--maxText);margin-bottom:22px}
 .gal{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .gitem{cursor:pointer;text-align:left;background:none;border:0;padding:0;font:inherit;color:inherit;display:block}
@@ -187,7 +204,7 @@ footer.site .f-social svg{width:19px;height:19px;display:block;fill:currentColor
   .module{grid-template-columns:1fr;gap:24px}
   .module .m-media{position:static}
   .stats{grid-template-columns:1fr 1fr}
-  .two-up,.three-up{grid-template-columns:1fr}
+  .two-up,.three-up,.two-two,.three-two,.four-up{grid-template-columns:repeat(2,1fr)}
   .work-grid{grid-template-columns:1fr}
   .wrap{padding:0 22px}
   nav.top{padding:18px 22px}
