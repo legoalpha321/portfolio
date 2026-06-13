@@ -24,6 +24,7 @@ body{
   line-height:1.65;
   -webkit-font-smoothing:antialiased;
   text-rendering:optimizeLegibility;
+  zoom:1.1;
   /* min-height only — NO flex/grid on body (that breaks the margin:0 auto
      centering used by .wrap and the footer). The footer pins itself below. */
   min-height:100vh;
