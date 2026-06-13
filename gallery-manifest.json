@@ -29,21 +29,16 @@
       "title": "Summit 2026 Graphics",
       "desc": "Keynote motion graphics, Snowflake Summit 2026",
       "blurb": "A montage of motion graphics from Snowflake Summit 2026.",
-      "vimeo": ""
+      "vimeo": "1200654693",
+      "vimeo_hash": "3d4a41f539"
     },
     {
       "file": "summit-2025.jpg",
       "title": "Summit 2025 Graphics",
       "desc": "Keynote motion graphics, Snowflake Summit 2025",
       "blurb": "A montage of motion graphics from Snowflake Summit 2025.",
-      "vimeo": ""
-    },
-    {
-      "file": "cracking-the-code.jpg",
-      "title": "Cracking the Code",
-      "desc": "Templated 4-part developer series",
-      "blurb": "A four part developer series, built as a templated MOGRT system so editors could handle the demo screens, titles, and transitions themselves.",
-      "vimeo": ""
+      "vimeo": "1200650503",
+      "vimeo_hash": "1ef557c02c"
     },
     {
       "file": "snowflakedevelopers.jpg",
@@ -54,11 +49,12 @@
       "vimeo_hash": "a217b57e0d"
     },
     {
-      "file": "recurring-series.jpg",
-      "title": "Recurring Series Packages",
-      "desc": "Data Cloud Now · Predictions · MMDS",
-      "blurb": "Recurring event packages built to be repurposed by location and topic, including animated key art and a full LED background for Predictions.",
-      "vimeo": ""
+      "file": "predictions.jpg",
+      "title": "Snowflake Predictions",
+      "desc": "Event panel backgrounds & assets",
+      "blurb": "Full asset suite for Snowflake's annual Predictions event — panel backgrounds, animated key art, and stage graphics built to travel across locations and topics.",
+      "vimeo": "1200647587",
+      "vimeo_hash": "9cc148be1a"
     },
     {
       "file": "mmds.jpg",
@@ -77,6 +73,14 @@
       "vimeo_hash": "ab112af52c"
     },
     {
+      "file": "build25promo.gif",
+      "title": "Snowflake BUILD Promo 2025",
+      "desc": "Event promo",
+      "blurb": "",
+      "vimeo": "1200645195",
+      "vimeo_hash": "b405960b9b"
+    },
+    {
       "file": "snapchat.jpg",
       "title": "Snowflake × Snapchat",
       "desc": "Partner social short",
@@ -91,20 +95,6 @@
       "blurb": "LinkedIn social post for the Snowflake × Callaway partnership.",
       "vimeo": "1200631107",
       "vimeo_hash": "1f6116985c"
-    },
-    {
-      "file": "natoma.jpg",
-      "title": "Snowflake × Natoma",
-      "desc": "Acquisition announcement",
-      "blurb": "Snowflake × Natoma acquisition announcement.",
-      "vimeo": ""
-    },
-    {
-      "file": "observe.jpg",
-      "title": "Snowflake × Observe",
-      "desc": "Acquisition announcement",
-      "blurb": "Snowflake × Observe acquisition announcement.",
-      "vimeo": ""
     },
     {
       "file": "trucktalk.jpg",
