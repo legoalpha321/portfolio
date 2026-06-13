@@ -1,4 +1,0 @@
-# WIP — keep the site out of search engines until launch.
-# Delete this file (or change to "Allow: /") when ready to go public.
-User-agent: *
-Disallow: /
