@@ -150,7 +150,7 @@ footer.site .f-social{justify-self:center;display:flex;gap:18px}
 footer.site .f-email{justify-self:end}
 footer.site a{color:inherit;text-decoration:none}
 footer.site .f-social a{display:inline-flex;color:var(--muted);transition:color .15s}
-footer.site .f-social a:hover,footer.site .f-email:hover{color:var(--accent)}
+footer.site .f-social a:hover{color:var(--accent)}
 footer.site .f-social svg{width:19px;height:19px;display:block;fill:currentColor}
 
 /* ---------- work grid (tiles) ---------- */
